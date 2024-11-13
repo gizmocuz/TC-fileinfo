@@ -12,7 +12,7 @@ it hasn't been updated since 2017.
 Main dsp/sln file is located in /src/wincmd/fileinfo
 
 # Readme.txt
-[show readme/History](./src/wincmd/fileinfo/Readme.txt)
+[show readme/History](./src/wincmd/fileinfo/ReadMe.txt)
 
 # More info
 [See WEB pages](http://fg.tcplugins.free.fr/)
