@@ -15,5 +15,5 @@ Main dsp/sln file is located in /src/wincmd/fileinfo
 [show readme/History](src/wincmd/fileinfo/Readme.txt)
 
 # More info
-[See WEB pages] (http://fg.tcplugins.free.fr/)<br>
+[See WEB pages](http://fg.tcplugins.free.fr/)
 
