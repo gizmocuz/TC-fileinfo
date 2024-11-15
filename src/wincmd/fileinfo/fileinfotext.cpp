@@ -241,7 +241,9 @@ CString CreateText3(PVOID ptr, CWait &wait)
 #ifdef _WIN64
 
 	
-#else 
+#else
+	//issue with WIN32, __pfnDliFailureHook2, but this is not called
+/*
 	char szPath[MAX_PATH];
 	char szOriginalPath[MAX_PATH];
 	GetCurrentDirectory(MAX_PATH, szOriginalPath);  // Save original dir
@@ -324,6 +326,7 @@ CString CreateText3(PVOID ptr, CWait &wait)
 		return (CString) er.what();
 	}
 	SetCurrentDirectory( szOriginalPath );				 // Switch to app's dir
+*/
 #endif
 	return str;
 }   
