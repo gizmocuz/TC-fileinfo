@@ -103,7 +103,7 @@ CString DumpStringTable( PE_EXE &pe, DWORD resourceBase, PIMAGE_RESOURCE_DIRECTO
 				{
 					char * s;
 					char szBuff[20];
-					char c = (char)pStrEntry[k];
+					unsigned char c = (char)pStrEntry[k];
 					switch( c )
 					{
 						case '¦' : s = "¦"; break;
